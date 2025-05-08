@@ -1,0 +1,39 @@
+<main class="py-5">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center text-center">
+        <div class="col-md-8 col-lg-6">
+          
+          <!-- Foto personal -->
+          <div class="mb-4">
+            <img src="https://firebasestorage.googleapis.com/v0/b/base-pbc.firebasestorage.app/o/Imagen%20de%20WhatsApp%202025-04-28%20a%20las%2012.27.32_8dc50c28.jpg?alt=media&token=e43af7ac-6cb8-4a51-b721-4f9ac7c79241" alt="Foto de Erick Martinez" class="img-fluid rounded-circle shadow" style="width: 200px; height: 200px; object-fit: cover;">
+          </div>
+  
+          <!-- Nombre y edad (desde Firebase) -->
+          <h1 class="fw-bold" id="user-name">{{ nombreCompleto() }}</h1>
+            <p class="lead" id="user-age">{{ edadUsuario() }}</p>
+
+  
+          <hr class="my-4">
+  
+          <!-- Tecnologías -->
+          <div class="d-flex justify-content-center gap-4 mb-4">
+            <div>
+              <img src="https://firebasestorage.googleapis.com/v0/b/base-pbc.firebasestorage.app/o/hero_Z5hHnO.png?alt=media&token=d0de645c-d111-4305-a8fc-cd7e2c8dd512" alt="Angular" class="img-fluid" style="width: 100px;">
+              <p class="mt-2">Angular</p>
+            </div>
+            <div>
+              <img src="https://firebasestorage.googleapis.com/v0/b/base-pbc.firebasestorage.app/o/images.png?alt=media&token=8a3c4778-c2a3-4e07-8557-6e4a8df2a073https://firebasestorage.googleapis.com/v0/b/base-pbc.firebasestorage.app/o/images.png?alt=media&token=8a3c4778-c2a3-4e07-8557-6e4a8df2a073" alt="JavaScript" class="img-fluid" style="width: 100px;">
+              <p class="mt-2">JavaScript</p>
+            </div>
+          </div>
+  
+          <!-- Texto de bienvenida -->
+          <p class="text-muted">
+            ¡Hola! Soy un desarrollador apasionado por el mundo del frontend. 
+            Actualmente estoy aprendiendo y perfeccionando mis habilidades en Angular y JavaScript.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  
