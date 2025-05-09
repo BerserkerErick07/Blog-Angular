@@ -7,6 +7,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import path from 'path';
 import { forkJoin } from 'rxjs';
 import matter from 'gray-matter-browser';
+import { RouterLink } from '@angular/router';
 
 type HomeData = {
   posts: Array<string>;
@@ -15,7 +16,7 @@ type HomeData = {
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [PostPreviewComponent, HttpClientModule],
+  imports: [PostPreviewComponent, HttpClientModule, RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
